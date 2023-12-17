@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Multiplayer Game"
-run/main_scene="res://testScene.tscn"
+run/main_scene="res://multiplayerScene.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*res://GameManager.gd"
 
 [editor]
 
